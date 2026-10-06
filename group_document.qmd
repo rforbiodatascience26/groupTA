@@ -12,6 +12,16 @@ Hello!!!
 5+5 # I can't do math
 ```
 
+## New stuff
+
+Here is some more math
+
+```{r}
+2+7
+3+9
+10/3
+```
+
 
 # Zi
 
