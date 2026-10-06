@@ -6,6 +6,12 @@ editor: source
 
 # Puck
 
+Hello!!!
+
+```{r}
+5+5 # I can't do math
+```
+
 
 # Zi
 
