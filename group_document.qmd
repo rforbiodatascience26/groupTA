@@ -6,9 +6,37 @@ editor: source
 
 # Puck
 
+Hello!!!
+
+```{r}
+5+5 # I can't do math
+```
+
 
 # Zi
 
+```{r}
+2+2
+1:100
+3*3
+sample(1:9)
+X <- matrix(sample(1:9), nrow = 3, ncol = 3)
+X
+sum(X)
+mean(X)
+?sum
+sum
+nucleotides <- c("a", "c", "g", "t")
+nucleotides
+sample(nucleotides, size = 100, replace = TRUE)
+table(sample(nucleotides, size = 100, replace = TRUE))
+paste0(sample(nucleotides, size = 100, replace = TRUE), collapse = "")
+replicate(n = 10, expr = paste0(sample(nucleotides, size = 100, replace = TRUE), collapse = ""))
+df <- data.frame(id = paste0("seq", 1:10), seq = replicate(n = 10, expr = paste0(sample(nucleotides, size = 100, replace = TRUE), collapse = "")))
+df
+str(df)
+ls()
+```
 
 
 # Dani
